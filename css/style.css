@@ -40,7 +40,7 @@ a {
 .section-heading .line-dec {
 	width: 30px;
 	height: 5px;
-	background-color: #3a8bcd;
+	background-color: #fad9d1;
 }
 .section-heading h1 {
 	font-size: 22px;
@@ -51,7 +51,7 @@ a {
 
 /* Pre Header Style */
 #pre-header {
-	background-color: #3a8bcd;
+	background-color: #fad9d1;
 	text-align: center;
 }
 #pre-header span {
@@ -69,18 +69,18 @@ a {
 	padding: 25px 0px;
 }
 .bg-dark {
-	background-color: #fff!important;
+	background-color: #fad9d1!important;
 	border-bottom: 1px solid #eee;
 }
 #navbarResponsive {
 	z-index: 999;
 	position: absolute;
 	left: 50%;
-	top: 128px;
+	top: 126px;
 	transform: translateX(-50%);
 }
 .navbar-dark .navbar-nav .nav-item {
-	margin: 0px 15px;
+	margin: 15px 15px;
 }
 .navbar-dark .navbar-nav .nav-link {
 	text-transform: uppercase;
@@ -94,7 +94,7 @@ a {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-	color: #3a8bcd;
+	color: #e00a0a;
 }
 .navbar:after {
 	width: 100%;
@@ -145,7 +145,7 @@ a {
 .banner .caption .line-dec {
 	width: 30px;
 	height: 5px;
-	background-color: #3a8bcd;
+	background-color: #fad9d1;
 }
 .banner .caption p {
 	margin-top: 15px;
@@ -172,14 +172,14 @@ a {
 	font-size: 17px;
 	font-weight: 700;
 	color: #1e1e1e;
-	margin-top: 15px;
+	margin-top: 20px;
 	transition: all 0.5s;
 }
 .featured-item:hover h4 {
-	color: #3a8bcd;
+	color: #e13530;
 }
 .featured-item h6 {
-	color: #3a8bcd;
+	color: #e13530;
 	font-size: 15px;
 	font-weight: 700;
 	margin-bottom: 0px;
@@ -192,7 +192,7 @@ a {
 	outline: none;
 }
 .owl-theme .owl-dots .active span {
-	background-color: #3a8bcd!important;
+	background-color: #e13530!important;
 }
 .owl-theme .owl-dots .owl-dot span {
 	background-color: #aaa;
@@ -207,7 +207,7 @@ a {
 
 /* Subscribe Style */
 .subscribe-form {
-	background-color: #ff4901;
+	background-color: #fad9d1;
 	padding: 80px 0px;
 	text-align: center;
 }
@@ -215,19 +215,19 @@ a {
 	margin-top: 0px;
 }
 .subscribe-form .section-heading h1 {
-	color: #fff;
+	color: #000;
 }
 .subscribe-form .section-heading .line-dec {
-	background-color: #fff;
+	background-color: #000;
 	margin: 0 auto;
 }
 .subscribe-form .main-content p {
 	font-size: 17px;
-	color: #fff;
+	color: #000;
 	margin-bottom: 30px;
 }
 .subscribe-form .main-content form  {
-	color: #fff;
+	color: #000;
 	display: inline;
 }
 .subscribe-form .main-content form input {
@@ -236,7 +236,7 @@ a {
 .subscribe-form .main-content form input {
 	width: 100%;
 	height: 46px;
-	border: 1px solid #fff;
+	border: 1px solid #000;
 	background-color: transparent;
 	padding-left: 15px;
 	color: #fff;
@@ -249,12 +249,12 @@ a {
 	width: 100%;
 	height: 45px;
 	cursor: pointer;
-	background-color: #fff;
+	background-color: #000;
 	outline: none;
 	border-radius: 5px;
 	padding: 10px 15px;
 	display: inline-block;
-	color: #3a8bcd;
+	color: #fad9d1;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -738,7 +738,6 @@ a {
 	} 
 
 }
-
 ::placeholder {
 	color: #fff
 }
